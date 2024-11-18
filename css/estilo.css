@@ -78,28 +78,24 @@ ul {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #duas-colunas #primario {
     width: 555px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #uma-coluna #primario {
     width: 750px;
     float: left;
     margin: 0 0 20px 0;
-    background: blue;
 }
 
 #secundario {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background-color: red;
 }
 
 #lateral {
@@ -131,6 +127,49 @@ h2 {
     background: #fff;
     padding: 5px;
     margin-top: 5px;
+}
+
+/* Formatar menus laterais */
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/* Formatação de formulários */
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: 135px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 0.9em;
+    background: #fff;
+}
+
+input.submit {
+    width: 148px;
+    color: #fff;
+    background: #b10333;
+    border: 2px solid #870529;
+    cursor: pointer;
+}
+
+input.submit:hover {
+    background: #bf1343;
 }
 
 /* Rodapé */
