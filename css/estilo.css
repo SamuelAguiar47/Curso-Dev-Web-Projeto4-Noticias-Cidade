@@ -218,7 +218,7 @@ h3 {
     padding: 0;
     font-size: 0.8em;
     background: none;
-    color: #000;
+    color: #3e74b9;
 }
 
 #lista-noticias li a p {
@@ -230,6 +230,17 @@ h3 {
     background: #eee;
     cursor: pointer;
 }
+
+/* Configuração de links */
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
+
 
 /* Rodapé */
 #rodape {
